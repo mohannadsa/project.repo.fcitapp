@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaf7c6"
+    tools:context=".Feedback">
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="25dp"
+        android:paddingBottom="20dp"
+        android:text="FeedBack"
+        android:textColor="#000000"
+        android:textFontWeight="20"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/gfloormap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginBottom="-6dp"
+        android:text="My Profile"
+        android:background="#ffffff"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginBottom="-7dp"
+        android:background="#ffffff"
+        android:text="My Downloads"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="209dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-17dp"
+        android:background="#fff"
+        android:text="Home"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="56dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/butten_side"
+        android:drawableTop="@drawable/menu_bar1"
+        android:paddingTop="15dp"
+        android:onClick="sidpop"/>
+
+    <RelativeLayout
+        android:layout_width="293dp"
+        android:layout_height="410dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:background="@drawable/button_circul"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/hciimage"
+            android:layout_width="57dp"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/book" />
+
+        <TextView
+            android:id="@+id/SubjectTiltle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="46dp"
+            android:layout_toEndOf="@+id/hciimage"
+            android:layout_toRightOf="@+id/hciimage"
+            android:text="Human Computer interaction" />
+
+        <TextView
+            android:id="@+id/student1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="113dp"
+            android:text="Student 1: It was very fun subject" />
+
+        <TextView
+            android:id="@+id/student2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="169dp"
+            android:text="Student 2: chalnging need stuying" />
+
+        <TextView
+            android:id="@+id/Student3"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="224dp"
+            android:text="Student 3: you have to take it with dr.faris he is relly good " />
+
+        <TextView
+            android:id="@+id/Student4"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="306dp"
+            android:text="Student 4: Dr.faris is the best dr" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="255dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:background="#fff">
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+</RelativeLayout>

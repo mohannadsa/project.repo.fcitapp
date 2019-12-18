@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "832250710816",
+    "firebase_url": "https://fcitkau-a882f.firebaseio.com",
+    "project_id": "fcitkau-a882f",
+    "storage_bucket": "fcitkau-a882f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832250710816:android:fecb2b4e3bc7d5819c6545",
+        "android_client_info": {
+          "package_name": "com.example.fcitkau"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832250710816-1l1dlhl3mj2k0q8aiu9ac0m8e3iel0on.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fcitkau",
+            "certificate_hash": "98c76c1f5cf14271f3008e28cd272b172dca456b"
+          }
+        },
+        {
+          "client_id": "832250710816-rqnm4hjnb43rag4pgi83a6ddk146naj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDETGZBen3ZZQ8sntMU4wanmo4r01Rdsmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832250710816-rqnm4hjnb43rag4pgi83a6ddk146naj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
